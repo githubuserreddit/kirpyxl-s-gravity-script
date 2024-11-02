@@ -183,6 +183,14 @@ coroutine.wrap(VZWFDIV_fake_script)()
 local function HSEBTTH_fake_script() -- Walkonwalls.Script 
 	local script = Instance.new('Script', Walkonwalls)
 
-	loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
+	local button = script.Parent
+
+	local function executeScript()
+		loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
+	end
+
+	button.MouseButton1Click:Connect(executeScript)
+
+
 end
 coroutine.wrap(HSEBTTH_fake_script)()
