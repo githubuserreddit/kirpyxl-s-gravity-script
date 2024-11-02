@@ -1,0 +1,188 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Mainscript = Instance.new("Frame")
+local Madebykirpyxl = Instance.new("TextLabel")
+local Antigravity = Instance.new("TextButton")
+local Lowgravity = Instance.new("TextButton")
+local Normalgravity = Instance.new("TextButton")
+local Walkonwalls = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+
+Mainscript.Name = "Mainscript"
+Mainscript.Parent = ScreenGui
+Mainscript.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Mainscript.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Mainscript.BorderSizePixel = 0
+Mainscript.Position = UDim2.new(0.324394464, 0, 0.290201008, 0)
+Mainscript.Size = UDim2.new(0, 714, 0, 328)
+Mainscript.Active = true
+Mainscript.Draggable = true
+
+Madebykirpyxl.Name = "Made by kirpyxl"
+Madebykirpyxl.Parent = Mainscript
+Madebykirpyxl.BackgroundColor3 = Color3.fromRGB(70, 153, 255)
+Madebykirpyxl.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Madebykirpyxl.BorderSizePixel = 0
+Madebykirpyxl.Position = UDim2.new(-4.58172735e-06, 0, -0.00146238727, 0)
+Madebykirpyxl.Size = UDim2.new(0, 373, 0, 50)
+Madebykirpyxl.Font = Enum.Font.Jura
+Madebykirpyxl.Text = "Made by kirpyxl"
+Madebykirpyxl.TextColor3 = Color3.fromRGB(0, 0, 0)
+Madebykirpyxl.TextScaled = true
+Madebykirpyxl.TextSize = 14.000
+Madebykirpyxl.TextWrapped = true
+
+Antigravity.Name = "Anti gravity"
+Antigravity.Parent = Mainscript
+Antigravity.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Antigravity.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Antigravity.BorderSizePixel = 0
+Antigravity.Position = UDim2.new(0, 0, 0.151702791, 0)
+Antigravity.Size = UDim2.new(0, 373, 0, 50)
+Antigravity.Font = Enum.Font.SourceSans
+Antigravity.Text = "Anti gravity"
+Antigravity.TextColor3 = Color3.fromRGB(0, 0, 0)
+Antigravity.TextScaled = true
+Antigravity.TextSize = 14.000
+Antigravity.TextWrapped = true
+
+Lowgravity.Name = "Low gravity"
+Lowgravity.Parent = Mainscript
+Lowgravity.BackgroundColor3 = Color3.fromRGB(255, 225, 0)
+Lowgravity.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Lowgravity.BorderSizePixel = 0
+Lowgravity.Position = UDim2.new(0, 0, 0.306501538, 0)
+Lowgravity.Size = UDim2.new(0, 373, 0, 127)
+Lowgravity.Font = Enum.Font.SourceSans
+Lowgravity.Text = "Low gravity"
+Lowgravity.TextColor3 = Color3.fromRGB(0, 0, 0)
+Lowgravity.TextScaled = true
+Lowgravity.TextSize = 14.000
+Lowgravity.TextWrapped = true
+
+Normalgravity.Name = "Normal gravity"
+Normalgravity.Parent = Mainscript
+Normalgravity.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Normalgravity.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Normalgravity.BorderSizePixel = 0
+Normalgravity.Position = UDim2.new(-0.00268096523, 0, 0.699690402, 0)
+Normalgravity.Size = UDim2.new(0, 374, 0, 97)
+Normalgravity.Font = Enum.Font.SourceSans
+Normalgravity.Text = "Normal gravity"
+Normalgravity.TextColor3 = Color3.fromRGB(0, 0, 0)
+Normalgravity.TextScaled = true
+Normalgravity.TextSize = 14.000
+Normalgravity.TextWrapped = true
+
+Walkonwalls.Name = "Walk on walls"
+Walkonwalls.Parent = Mainscript
+Walkonwalls.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Walkonwalls.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Walkonwalls.BorderSizePixel = 0
+Walkonwalls.Position = UDim2.new(0.518055558, 0, 0.306501538, 0)
+Walkonwalls.Size = UDim2.new(0, 347, 0, 127)
+Walkonwalls.Font = Enum.Font.SciFi
+Walkonwalls.Text = "Walk on walls (press z)"
+Walkonwalls.TextColor3 = Color3.fromRGB(0, 0, 0)
+Walkonwalls.TextScaled = true
+Walkonwalls.TextSize = 14.000
+Walkonwalls.TextWrapped = true
+
+TextLabel.Parent = Mainscript
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.517027199, 0, 0.698049068, 0)
+TextLabel.Size = UDim2.new(0, 348, 0, 97)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "VERSION 1.1"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 55.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = Mainscript
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.522408962, 0, -0.00304873404, 0)
+TextLabel_2.Size = UDim2.new(0, 341, 0, 100)
+TextLabel_2.Font = Enum.Font.SciFi
+TextLabel_2.Text = "Changelogs - added walk on walls"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+-- Scripts:
+
+local function VRRAKY_fake_script() -- Antigravity.Anti gravity 
+	local script = Instance.new('Script', Antigravity)
+
+	local button = script.Parent
+	local Players = game:GetService("Players")
+	
+	button.MouseButton1Click:Connect(function()
+		game.Workspace.Gravity = 0
+		local player = Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoid = character:FindFirstChildOfClass("Humanoid")
+	
+		if humanoid then
+			humanoid.JumpPower = 50 -- Set a custom jump power to allow jumping
+		end
+	end)
+	
+	
+end
+coroutine.wrap(VRRAKY_fake_script)()
+local function WBET_fake_script() -- Lowgravity.Low gravity 
+	local script = Instance.new('Script', Lowgravity)
+
+	local button = script.Parent
+	local Players = game:GetService("Players")
+	
+	button.MouseButton1Click:Connect(function()
+		game.Workspace.Gravity = 35.0
+		local player = Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoid = character:FindFirstChildOfClass("Humanoid")
+	
+		if humanoid then
+			humanoid.JumpPower = 70 -- Set jump power to 70
+		end
+	end)
+	
+	
+end
+coroutine.wrap(WBET_fake_script)()
+local function VZWFDIV_fake_script() -- Normalgravity.Normal gravity 
+	local script = Instance.new('Script', Normalgravity)
+
+	local button = script.Parent
+	local Players = game:GetService("Players")
+	
+	button.MouseButton1Click:Connect(function()
+		game.Workspace.Gravity = 196.2
+		local player = Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoid = character:FindFirstChildOfClass("Humanoid")
+	
+		if humanoid then
+			humanoid.JumpPower = 50 -- Reset jump power to a default value
+		end
+	end)
+	
+	
+end
+coroutine.wrap(VZWFDIV_fake_script)()
+local function HSEBTTH_fake_script() -- Walkonwalls.Script 
+	local script = Instance.new('Script', Walkonwalls)
+
+	loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
+end
+coroutine.wrap(HSEBTTH_fake_script)()
