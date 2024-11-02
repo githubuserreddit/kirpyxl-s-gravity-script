@@ -8,7 +8,6 @@ local Walkonwalls = Instance.new("TextButton")
 local TextLabel = Instance.new("TextLabel")
 local TextLabel_2 = Instance.new("TextLabel")
 
---Properties:
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ResetOnSpawn = false
@@ -120,67 +119,67 @@ TextLabel_2.TextWrapped = true
 
 -- Scripts:
 
-local function VRRAKY_fake_script() -- Antigravity.Anti gravity 
+local function SNCYV_fake_script() -- Antigravity.Anti gravity 
 	local script = Instance.new('Script', Antigravity)
 
 	local button = script.Parent
 	local Players = game:GetService("Players")
-	
+
 	button.MouseButton1Click:Connect(function()
 		game.Workspace.Gravity = 0
 		local player = Players.LocalPlayer
 		local character = player.Character or player.CharacterAdded:Wait()
 		local humanoid = character:FindFirstChildOfClass("Humanoid")
-	
+
 		if humanoid then
 			humanoid.JumpPower = 50 -- Set a custom jump power to allow jumping
 		end
 	end)
-	
-	
+
+
 end
-coroutine.wrap(VRRAKY_fake_script)()
-local function WBET_fake_script() -- Lowgravity.Low gravity 
+coroutine.wrap(SNCYV_fake_script)()
+local function GMWKZ_fake_script() -- Lowgravity.Low gravity 
 	local script = Instance.new('Script', Lowgravity)
 
 	local button = script.Parent
 	local Players = game:GetService("Players")
-	
+
 	button.MouseButton1Click:Connect(function()
 		game.Workspace.Gravity = 35.0
 		local player = Players.LocalPlayer
 		local character = player.Character or player.CharacterAdded:Wait()
 		local humanoid = character:FindFirstChildOfClass("Humanoid")
-	
+
 		if humanoid then
 			humanoid.JumpPower = 70 -- Set jump power to 70
 		end
 	end)
-	
-	
+
+
 end
-coroutine.wrap(WBET_fake_script)()
-local function VZWFDIV_fake_script() -- Normalgravity.Normal gravity 
+coroutine.wrap(GMWKZ_fake_script)()
+local function CHFULAA_fake_script() -- Normalgravity.Normal gravity 
 	local script = Instance.new('Script', Normalgravity)
 
 	local button = script.Parent
 	local Players = game:GetService("Players")
-	
+
 	button.MouseButton1Click:Connect(function()
 		game.Workspace.Gravity = 196.2
 		local player = Players.LocalPlayer
 		local character = player.Character or player.CharacterAdded:Wait()
 		local humanoid = character:FindFirstChildOfClass("Humanoid")
-	
+
 		if humanoid then
 			humanoid.JumpPower = 50 -- Reset jump power to a default value
 		end
 	end)
-	
-	
+
+
 end
-coroutine.wrap(VZWFDIV_fake_script)()
-local function HSEBTTH_fake_script() -- Walkonwalls.Script 
+coroutine.wrap(CHFULAA_fake_script)()
+local function RYAQ_fake_script() -- Walkonwalls.Script 
 	local script = Instance.new('Script', Walkonwalls)
 
 	local button = script.Parent
@@ -193,4 +192,4 @@ local function HSEBTTH_fake_script() -- Walkonwalls.Script
 
 
 end
-coroutine.wrap(HSEBTTH_fake_script)()
+coroutine.wrap(RYAQ_fake_script)()
