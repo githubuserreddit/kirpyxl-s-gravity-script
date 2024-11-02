@@ -77,20 +77,6 @@ Normalgravity.TextScaled = true
 Normalgravity.TextSize = 14.000
 Normalgravity.TextWrapped = true
 
-Walkonwalls.Name = "Walk on walls"
-Walkonwalls.Parent = Mainscript
-Walkonwalls.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Walkonwalls.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Walkonwalls.BorderSizePixel = 0
-Walkonwalls.Position = UDim2.new(0.518055558, 0, 0.306501538, 0)
-Walkonwalls.Size = UDim2.new(0, 347, 0, 127)
-Walkonwalls.Font = Enum.Font.SciFi
-Walkonwalls.Text = "Walk on walls (press z)"
-Walkonwalls.TextColor3 = Color3.fromRGB(0, 0, 0)
-Walkonwalls.TextScaled = true
-Walkonwalls.TextSize = 14.000
-Walkonwalls.TextWrapped = true
-
 TextLabel.Parent = Mainscript
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -107,8 +93,8 @@ TextLabel_2.Parent = Mainscript
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_2.BorderSizePixel = 0
-TextLabel_2.Position = UDim2.new(0.522408962, 0, -0.00304873404, 0)
-TextLabel_2.Size = UDim2.new(0, 341, 0, 100)
+TextLabel_2.Position = UDim2.new(0.522408962, 0, -0.00304882694, 0)
+TextLabel_2.Size = UDim2.new(0, 341, 0, 228)
 TextLabel_2.Font = Enum.Font.SciFi
 TextLabel_2.Text = "Changelogs - deleted walk on walls"
 TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -118,63 +104,63 @@ TextLabel_2.TextWrapped = true
 
 -- Scripts:
 
-local function SNCYV_fake_script() -- Antigravity.Anti gravity 
+local function VEUUERU_fake_script() -- Antigravity.Anti gravity 
 	local script = Instance.new('Script', Antigravity)
 
 	local button = script.Parent
 	local Players = game:GetService("Players")
-
+	
 	button.MouseButton1Click:Connect(function()
 		game.Workspace.Gravity = 0
 		local player = Players.LocalPlayer
 		local character = player.Character or player.CharacterAdded:Wait()
 		local humanoid = character:FindFirstChildOfClass("Humanoid")
-
+	
 		if humanoid then
 			humanoid.JumpPower = 50 -- Set a custom jump power to allow jumping
 		end
 	end)
-
-
+	
+	
 end
-coroutine.wrap(SNCYV_fake_script)()
-local function GMWKZ_fake_script() -- Lowgravity.Low gravity 
+coroutine.wrap(VEUUERU_fake_script)()
+local function MMGACZN_fake_script() -- Lowgravity.Low gravity 
 	local script = Instance.new('Script', Lowgravity)
 
 	local button = script.Parent
 	local Players = game:GetService("Players")
-
+	
 	button.MouseButton1Click:Connect(function()
 		game.Workspace.Gravity = 35.0
 		local player = Players.LocalPlayer
 		local character = player.Character or player.CharacterAdded:Wait()
 		local humanoid = character:FindFirstChildOfClass("Humanoid")
-
+	
 		if humanoid then
 			humanoid.JumpPower = 70 -- Set jump power to 70
 		end
 	end)
-
-
+	
+	
 end
-coroutine.wrap(GMWKZ_fake_script)()
-local function CHFULAA_fake_script() -- Normalgravity.Normal gravity 
+coroutine.wrap(MMGACZN_fake_script)()
+local function RHWGNM_fake_script() -- Normalgravity.Normal gravity 
 	local script = Instance.new('Script', Normalgravity)
 
 	local button = script.Parent
 	local Players = game:GetService("Players")
-
+	
 	button.MouseButton1Click:Connect(function()
 		game.Workspace.Gravity = 196.2
 		local player = Players.LocalPlayer
 		local character = player.Character or player.CharacterAdded:Wait()
 		local humanoid = character:FindFirstChildOfClass("Humanoid")
-
+	
 		if humanoid then
 			humanoid.JumpPower = 50 -- Reset jump power to a default value
 		end
 	end)
-
-
+	
+	
 end
-coroutine.wrap(CHFULAA_fake_script)()
+coroutine.wrap(RHWGNM_fake_script)()
