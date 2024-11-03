@@ -42,8 +42,8 @@ Antigravity.Parent = Mainscript
 Antigravity.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Antigravity.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Antigravity.BorderSizePixel = 0
-Antigravity.Position = UDim2.new(0, 0, 0.151702791, 0)
-Antigravity.Size = UDim2.new(0, 373, 0, 50)
+Antigravity.Position = UDim2.new(0, 0, 0.104469813, 0)
+Antigravity.Size = UDim2.new(0, 373, 0, 95)
 Antigravity.Font = Enum.Font.SourceSans
 Antigravity.Text = "Anti gravity"
 Antigravity.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -134,7 +134,7 @@ Apply.TextWrapped = true
 
 -- Scripts:
 
-local function RHFHZEJ_fake_script() -- Antigravity.Anti gravity 
+local function XCHSZZA_fake_script() -- Antigravity.Anti gravity 
 	local script = Instance.new('Script', Antigravity)
 
 	local button = script.Parent
@@ -145,8 +145,8 @@ local function RHFHZEJ_fake_script() -- Antigravity.Anti gravity
 	
 	
 end
-coroutine.wrap(RHFHZEJ_fake_script)()
-local function TNBALG_fake_script() -- Lowgravity.Low gravity 
+coroutine.wrap(XCHSZZA_fake_script)()
+local function LNYU_fake_script() -- Lowgravity.Low gravity 
 	local script = Instance.new('Script', Lowgravity)
 
 	local button = script.Parent
@@ -157,8 +157,8 @@ local function TNBALG_fake_script() -- Lowgravity.Low gravity
 	
 	
 end
-coroutine.wrap(TNBALG_fake_script)()
-local function ISXRW_fake_script() -- Normalgravity.Normal gravity 
+coroutine.wrap(LNYU_fake_script)()
+local function LPVBE_fake_script() -- Normalgravity.Normal gravity 
 	local script = Instance.new('Script', Normalgravity)
 
 	local button = script.Parent
@@ -169,8 +169,8 @@ local function ISXRW_fake_script() -- Normalgravity.Normal gravity
 	
 	
 end
-coroutine.wrap(ISXRW_fake_script)()
-local function SXBS_fake_script() -- ScreenGui.ChangeGravityScript 
+coroutine.wrap(LPVBE_fake_script)()
+local function VYKM_fake_script() -- ScreenGui.ChangeGravityScript 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	local Players = game:GetService("Players")
@@ -192,4 +192,4 @@ local function SXBS_fake_script() -- ScreenGui.ChangeGravityScript
 	
 	
 end
-coroutine.wrap(SXBS_fake_script)()
+coroutine.wrap(VYKM_fake_script)()
